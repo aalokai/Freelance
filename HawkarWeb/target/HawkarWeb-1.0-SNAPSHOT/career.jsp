@@ -35,6 +35,8 @@
                         <br><br>
                         Duration - 3 to 6 months
                         <br><br>
+                        Start date - Immediately
+                        <br><br>
                         Stipend - &#8377;4k - &#8377;7k
                     </p>
                     <h5>Requirements</h5>
@@ -61,8 +63,41 @@
                             Ability to work collaboratively in a team-oriented environment.
                         </li>
                     </ul>
-                </div>
+                    <br>
+                    <div class="row">
+                        <h5>Fill out this form to apply-</h5>
+                        <form id="android" class="form-group" method="post" onsubmit="event.preventDefault();validate();" action="controller.jsp">
+                            <input type="hidden" name="page" value="career"/>
+                            <table class="table table-bordered" style="width:80%;">
+                                <tr>
+                                    <td>Enter Name</td>
+                                    <td><input type="text" id="name" name="name" class="form-control"></td>
+                                </tr>
 
+                                <tr>
+                                    <td>Email Address</td>
+                                    <td><input type="text" id="email" name="email" class="form-control"></td>
+                                </tr>
+                                <tr>
+                                    <td>Enter Contact No</td>
+                                    <td><input type="number" id="mobno" name="mobno" class="form-control"></td>
+                                </tr>
+
+                                <tr>
+                                    <td>Enter D.O.B</td>
+                                    <td><textarea name="dob" id="enquiry" class="form-control"></textarea></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><button type="submit" class="btn btn-success">Submit</button></td>
+                                </tr>
+                            </table>
+                        </form>
+
+
+
+                    </div>    
+                </div>
                 <div class="col-sm-4 m-5"></div>
             </div>
 
