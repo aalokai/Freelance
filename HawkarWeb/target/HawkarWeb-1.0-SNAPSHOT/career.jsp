@@ -88,8 +88,20 @@
                                     <td><textarea name="dob" id="enquiry" class="form-control"></textarea></td>
                                 </tr>
                                 <tr>
+                                    <td>Skills</td>
+                                    <td><input type="text" id="skills" name="skills" class="form-control"/></td>
+                                </tr>
+                                <tr>
+                                    <td>Github Link</td>
+                                    <td><input type="text" id="github" name="github" class="form-control"/></td>
+                                </tr>
+                                <tr>
+                                    <td>Linkedin Profile</td>
+                                    <td><input type="text" id="linkedin" name="linkedin" class="form-control"/></td>
+                                </tr>
+                                <tr>
                                     <td></td>
-                                    <td><button type="submit" class="btn btn-success">Submit</button></td>
+                                    <td><button type="submit" class="btn btn-dark">Submit</button></td>
                                 </tr>
                             </table>
                         </form>
