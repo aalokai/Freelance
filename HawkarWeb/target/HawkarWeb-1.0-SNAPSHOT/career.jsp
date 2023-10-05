@@ -37,7 +37,7 @@
                         <br><br>
                         Start date - Immediately
                         <br><br>
-                        Stipend - &#8377;4k - &#8377;7k
+                        Stipend - &#8377;2.5k - &#8377;5k
                     </p>
                     <h5>Requirements</h5>
                     <ul style="font-size: 15px;">
@@ -66,7 +66,7 @@
                     <br>
                     <div class="row">
                         <h5>Fill out this form to apply-</h5>
-                        <form id="android" class="form-group" method="post" onsubmit="event.preventDefault();validate();" action="controller.jsp">
+                        <form id="android" class="form-group" method="post" onsubmit="event.preventDefault();validate();" action="controller.jsp" enctype="multipart/form-data">
                             <input type="hidden" name="page" value="career"/>
                             <table class="table table-bordered" style="width:80%;">
                                 <tr>
@@ -76,7 +76,7 @@
 
                                 <tr>
                                     <td>Email Address</td>
-                                    <td><input type="text" id="email" name="email" class="form-control"></td>
+                                    <td><input type="email" id="email" name="email" class="form-control"></td>
                                 </tr>
                                 <tr>
                                     <td>Enter Contact No</td>
@@ -85,7 +85,15 @@
 
                                 <tr>
                                     <td>Enter D.O.B</td>
-                                    <td><textarea name="dob" id="enquiry" class="form-control"></textarea></td>
+                                    <td><input type="date" name="dob" id="enquiry" class="form-control"/></td>
+                                </tr>
+                                <tr>
+                                    <td>Education(Current/Highest level)</td>
+                                    <td><input type="text" id="education" name="education" class="form-control"/></td>
+                                </tr>
+                                <tr>
+                                    <td>Experience</td>
+                                    <td>We don't ask for experience. We ask skills.</td>
                                 </tr>
                                 <tr>
                                     <td>Skills</td>
@@ -98,6 +106,11 @@
                                 <tr>
                                     <td>Linkedin Profile</td>
                                     <td><input type="text" id="linkedin" name="linkedin" class="form-control"/></td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>Upload Resume(pdf)</td>
+                                    <td><input type="file" id="resume" name="resume" class="form-control"/></td>
                                 </tr>
                                 <tr>
                                     <td></td>
