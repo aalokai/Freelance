@@ -21,7 +21,7 @@
     <body>
         <div class="container-fluid">
             <jsp:include page="header.jsp"/>
-            <div class="row"">
+            <div class="row" style="background-image: url(images/index1.jpg); background-size:cover;">
                 
                 <div class="col-sm-6 p-5">
                     <p style="font-size: 35px; text-align: right">
@@ -36,11 +36,11 @@
                 </div>
             </div>
             
-            <div class="row">
+            <div class="row" style="background-image: url(images/index2.jpg); background-size:cover; ">
                 
                 
                 <div class="col-sm-6 p-5">
-                    <img src="images/s2.jpg" alt="alt" style="max-height: 350px"/>
+                    <img src="images/s2.png" alt="alt" style="max-height: 350px"/>
                 </div>
                 <div class="col-sm-6 p-5">
                     <p style="font-size: 35px; text-align: left">

@@ -19,7 +19,7 @@
     <body>
         <div class="container-fluid">
             <jsp:include page="header.jsp"/>
-            <div class="row"">
+            <div class="row" style="background-image: url(images/index1.jpg);background-size: cover;">
                 <div class="col-sm-8 m-5">
                     <p style="font-size: 18px; font-weight: bold;">
                         Are you a passionate and aspiring Software Developer looking to kickstart your career in the dynamic world of technology?
@@ -118,9 +118,7 @@
                                 </tr>
                             </table>
                         </form>
-
-
-
+                        
                     </div>    
                 </div>
                 <div class="col-sm-4 m-5"></div>

@@ -9,7 +9,7 @@
 
 <div class="row text-light" style="background-color: gray;position: sticky;top: 0;">
     <div class="col-sm-6" style="text-align: left">+91-9628234079</div>
-    <div class="col-sm-6" style="text-align: right">Mail us at: tiwari.aalok24@gmail.com</div>
+    <div class="col-sm-6" style="text-align: right">Mail us at: contact@hawkar.in</div>
 </div>
 <div class="row" style="min-height: 50px;position: sticky;top: 0;">
     <nav class="navbar navbar-expand-lg " style="background-color: lightgray;">

@@ -45,9 +45,9 @@
             
             
         </script>
-        <div class="container-fluid" style="">
+        <div class="container-fluid" >
             <jsp:include page="header.jsp"/>
-            <div class="row my-5" style="">
+            <div class="row my-5" style="background-image: url(images/index1.jpg); background-size: cover;min-height: 600px;">
                 
                     
                     <div class="col-sm-12">
