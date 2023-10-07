@@ -32,7 +32,7 @@
                     email.focus();
                 }
                 else if(mobno.value==null||mobno.value==""){
-                    alert('Please enter Moile Number');
+                    alert('Please enter Mobile Number');
                     mobno.focus();
                 }
                 else if(enquiry.value==null||enquiry.value==""){

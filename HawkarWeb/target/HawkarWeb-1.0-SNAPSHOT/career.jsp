@@ -17,6 +17,26 @@
 
     </head>
     <body>
+        <script>
+            function validate() {
+                var nameValue = document.getElementById("name").value;
+var emailValue = document.getElementById("email").value;
+var mobnoValue = document.getElementById("mobno").value;
+var dobValue = document.getElementById("dob").value;
+var educationValue = document.getElementById("education").value;
+var skillsValue = document.getElementById("skills").value;
+var githubValue = document.getElementById("github").value;
+var linkedinValue = document.getElementById("linkedin").value;
+
+if (nameValue === "" || emailValue === "" || mobnoValue === "" || dobValue === "" || educationValue === "" || skillsValue === "" || githubValue === "" || linkedinValue === "" || nameValue === null || emailValue === null || mobnoValue === null || dobValue === null || educationValue === null || skillsValue === null || githubValue === null || linkedinValue === null) {
+    alert("Please fill in all required fields.");
+}
+
+
+                else
+                    document.getElementById("android").submit();
+            }
+        </script>
         <div class="container-fluid">
             <jsp:include page="header.jsp"/>
             <div class="row" style="background-image: url(images/index1.jpg);background-size: cover;">
@@ -66,35 +86,33 @@
                     <br>
                     <div class="row">
                         <h5>Fill out this form to apply-</h5>
-                        <form id="android" class="form-group" method="post" onsubmit="event.preventDefault();validate();" action="controller.jsp" enctype="multipart/form-data">
+                        <form id="android" class="form-group" method="post" onsubmit="event.preventDefault();
+                                validate();" action="controller.jsp" >
                             <input type="hidden" name="page" value="career"/>
                             <table class="table table-bordered" style="width:80%;">
                                 <tr>
-                                    <td>Enter Name</td>
+                                    <td>Name</td>
                                     <td><input type="text" id="name" name="name" class="form-control"></td>
                                 </tr>
 
                                 <tr>
                                     <td>Email Address</td>
-                                    <td><input type="email" id="email" name="email" class="form-control"></td>
+                                    <td><input type="text" id="email" name="email" class="form-control"></td>
                                 </tr>
                                 <tr>
-                                    <td>Enter Contact No</td>
+                                    <td>Contact No</td>
                                     <td><input type="number" id="mobno" name="mobno" class="form-control"></td>
                                 </tr>
 
                                 <tr>
-                                    <td>Enter D.O.B</td>
-                                    <td><input type="date" name="dob" id="enquiry" class="form-control"/></td>
+                                    <td>D.O.B</td>
+                                    <td><input type="text" name="dob" id="dob" class="form-control"/></td>
                                 </tr>
                                 <tr>
                                     <td>Education(Current/Highest level)</td>
                                     <td><input type="text" id="education" name="education" class="form-control"/></td>
                                 </tr>
-                                <tr>
-                                    <td>Experience</td>
-                                    <td>We don't ask for experience. We ask skills.</td>
-                                </tr>
+                                
                                 <tr>
                                     <td>Skills</td>
                                     <td><input type="text" id="skills" name="skills" class="form-control"/></td>
@@ -107,18 +125,14 @@
                                     <td>Linkedin Profile</td>
                                     <td><input type="text" id="linkedin" name="linkedin" class="form-control"/></td>
                                 </tr>
-                                
-                                <tr>
-                                    <td>Upload Resume(pdf)</td>
-                                    <td><input type="file" id="resume" name="resume" class="form-control"/></td>
-                                </tr>
+
                                 <tr>
                                     <td></td>
                                     <td><button type="submit" class="btn btn-dark">Submit</button></td>
                                 </tr>
                             </table>
                         </form>
-                        
+
                     </div>    
                 </div>
                 <div class="col-sm-4 m-5"></div>
